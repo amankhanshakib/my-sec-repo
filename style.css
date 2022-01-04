@@ -1,3 +1,115 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.gd-food{
+    display: flex;
+    margin-bottom: 150px;
+}
+h1{
+    font-size: 40px;
+    color: blueviolet;
+}
+#bur{
+    color: coral;
+}
+h3{
+    color: chocolate;
+}
+.food-1{
+    width: 50%;
+    padding-left: 5%;
+    margin-right: 10px;
+    text-align: justify;
+    margin-top: 120px;
+}
+.food-1 p{
+    width: 80%;
+}
+.food-2{
+    width: 45%;
+    margin-top: 20px;
+}
+.food-2 img{
+    width: 90%;
+    border: 5px solid rgb(224, 152, 69);
+    border-radius: 5px;
+}
+#pizz{
+    color: coral;
+    font-weight: 900;
+}
+.food-3{
+    width: 50%;
+    margin-top: 20px;
+    padding-left: 5%;
+}
+.food-3 img{
+    width: 90%;
+    border: 5px solid rgb(224, 152, 69);
+    border-radius: 5px;
+}
+.food-4{
+    width: 50%;
+    padding-left: 5%;
+    margin-right: 10px;
+    text-align: justify;
+    margin-top: 120px;
+}
+.food-4 p{
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(yellow, tomato);
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+#nai{
+    color: black;
+}
+.id{
+    margin-top: 150px;
+}
+.bet{
+    display: flex;
+    text-align: justify;
+}
+.food-5{
+    width: 40%;
+    margin: 0 10px 150px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 5%;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(green, yellow);
+    border-image-slice: 1;
+}
+.food-6{
+    width: 40%;
+    margin: 0 10px 150px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 5%;
+    border-radius: 10px;
+    border-right: 7px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+.food-5 h2{
+    font-size: 30px;
+}
+.food-6 h2{
+    font-size: 30px;
+}
+.food-5 h3{
+    border-bottom: 5px solid rgb(144, 90, 231) ;
+}
+.food-6 h3{
+    border-bottom: 5px solid rgb(144, 90, 231) ;
+}
+footer p{
+    text-align: center;
 }
